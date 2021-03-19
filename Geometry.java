@@ -20,6 +20,10 @@ public class Geometry {
          //Johnuel Quintos
          System.out.println(fmla.perimeterOfRectangle(10.0,9.0));
          System.out.println(fmla.perimeterOfParallelogram(4.0,6.5));
+
+	//Made by RexJasper Polintang
+         System.out.println(fmla.volumeOfCone(15.0,12.0));
+         System.out.println(fmla.volumeOfSphere(10.0));
 }
 }
 
@@ -64,6 +68,17 @@ class Formulas{
     public double perimeterOfParallelogram(double b, double h){
         double perim = 2*(b + h);
         return perim;
+    }
+   //Method 9 and 10 RexJasper Polintang
+    public double volumeOfSphere(double r){
+        double pi =  3.1415;
+        double vol = (1.3333)*(pi*(r*r*r));
+        return vol;
+    }
+    public double volumeOfCylinder(double r, double h){
+        double pi =  3.1415;
+        double vol = (pi)*(r*r)*(h);
+        return vol;
     }
 
 
