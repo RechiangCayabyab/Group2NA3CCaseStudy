@@ -13,6 +13,10 @@ public class Geometry {
          System.out.println(fmla.areaOfSquare(6.5));
          System.out.println(fmla.areaOfRectangle(4.5,3.5));
 
+         //Made by Ezekiel Benigno
+         System.out.println(fmla.perimeterOfCircle(7.0));
+         System.out.println(fmla.perimeterOfSquare(6.0));
+
 }
 }
 
@@ -39,5 +43,18 @@ class Formulas{
         double area = (b*h);
         return area;
     }
+    //Method 5 and 6 Ezekiel Benigno
+    public double perimeterOfCircle(double r){
+        double pi =  3.1415;
+        double perim = ((2*pi)*(r));
+        return perim;
+    }
+    public double perimeterOfSquare(double a){
+        double perim = (4*a);
+        return perim;
+    }
+
+
+
 }
 
