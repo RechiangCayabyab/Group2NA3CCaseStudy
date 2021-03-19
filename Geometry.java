@@ -17,6 +17,9 @@ public class Geometry {
          System.out.println(fmla.perimeterOfCircle(7.0));
          System.out.println(fmla.perimeterOfSquare(6.0));
 
+         //Johnuel Quintos
+         System.out.println(fmla.perimeterOfRectangle(10.0,9.0));
+         System.out.println(fmla.perimeterOfParallelogram(4.0,6.5));
 }
 }
 
@@ -53,7 +56,15 @@ class Formulas{
         double perim = (4*a);
         return perim;
     }
-
+   //Method 7 and 8 Johnuel Quintos
+    public double perimeterOfRectangle(double b, double h){
+        double perim = 2*(b + h);
+        return perim;
+    }
+    public double perimeterOfParallelogram(double b, double h){
+        double perim = 2*(b + h);
+        return perim;
+    }
 
 
 }
