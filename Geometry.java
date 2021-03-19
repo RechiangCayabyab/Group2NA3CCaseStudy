@@ -24,6 +24,10 @@ public class Geometry {
 	//Made by RexJasper Polintang
          System.out.println(fmla.volumeOfCone(15.0,12.0));
          System.out.println(fmla.volumeOfSphere(10.0));
+
+	//Made by Wowie Reyes Guadalquiver
+         System.out.println(fmla.volumeOfCylinder(5.2,6.8));
+         System.out.println(fmla.volumeOfRectangular(5.0,4.5,3.0));
 }
 }
 
@@ -80,7 +84,15 @@ class Formulas{
         double vol = (pi)*(r*r)*(h);
         return vol;
     }
-
+    //Method 11 and 12 Wowie Reyes Guadalquiver
+    public double volumeOfCone(double r,double h){
+        double pi =  3.1415;
+        double vol = (0.3333)*(pi)*(r*r)*(h);
+        return vol;
+    }
+    public double volumeOfRectangular(double l,double w, double h){
+        double vol = l*w*h;
+        return vol;
 
 }
-
+}
